@@ -1,19 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FLEXBOX</title>
     <style>
-        ::content {
-            flex-direction: row;
+
+        ::content
+        /* ::content {
             display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
             justify-content: flex-start;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
         }
-        div {            
+         */
+        /* display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    } */
+
+        /* justify-content: flex-start;
+            align-items: center; */
+        /* height: 100vh;
+            margin: 0; 
+            }
+            */
+        
+
+        div {
             text-align: center;
             color: rgb(73, 107, 241);
             width: 200px;
@@ -23,6 +42,7 @@
         }
     </style>
 </head>
+
 <body>
 
     <Container>
@@ -41,6 +61,22 @@
         </div>
 
     </Container>
-    
+
 </body>
+
 </html>
+
+
+
+<!-- 
+::content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start
+}
+div {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+} -->
